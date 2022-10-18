@@ -22,6 +22,7 @@ public class Loan {
 	String amount;
 	int tenure;
 	int interest;
+	
 	public Loan(Integer loanid, Account accountno, String type, String amount, int tenure, int interest) {
 		super();
 		this.loanid = loanid;
